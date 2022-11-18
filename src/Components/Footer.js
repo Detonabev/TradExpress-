@@ -27,8 +27,8 @@ const Footer = () => {
 
         <div className='contact'>
             <p className='footer-text'>Contact</p>
-            <a className='contact-a' href="#">hello@tradeexpress.com</a> <br />
-            <a className='contact-a' href="#">support@tradeexpress.com</a> <br />
+            <a className='contact-a' href="#top">hello@tradeexpress.com</a> <br />
+            <a className='contact-a' href="#top">support@tradeexpress.com</a> <br />
             <div className='icons'>
             <TfiTwitter/>
             <TbBrandTelegram/>
