@@ -172,8 +172,9 @@
         background-color: #FFFFFF;
         color: #7C20BF;
         width: 15rem;
-        padding: 10px 0px;
-        /* height: 4.3vh; */
+        /* padding: 10px 0px; */
+        height: 2.8rem;
+        margin-top: 8px;
         border-radius: 10px;
         text-align: center;
         /* position: relative;
