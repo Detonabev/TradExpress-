@@ -1,0 +1,347 @@
+@media screen and ( max-width: 480px) {
+    .crypto-head{
+        margin: 40px;
+        text-align: center;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 33px;
+        color: #7C20BF;
+
+    }
+    .reasons{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .payment{
+        /* border: 3px solid white; */
+        border-radius: 10px;
+        padding: 20px 0px;
+        width: 20rem;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     .payment-img{
+        align-items: center;
+        width: 50%;
+        /* margin:20px 0px; */
+    }
+    .payment-mode{
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        margin: 12px 0px;
+
+    }
+    .payment-text{
+        margin: 0px 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        line-height: 2;
+    }
+    .financial{
+        margin: 20px;
+        border-radius: 10px;
+        padding: 20px 0px;
+        width: 20rem;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .financial-img{
+        align-items: center;
+        /* width: 50%; */
+        /* margin:20px 0px; */
+    }
+    .financial-mode{
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        margin: 15px 0px;
+    }
+    .financial-text{
+        margin: 0px 10px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        line-height: 2;
+    }
+    .investment{
+        margin: 20px;
+        border-radius: 10px;
+        padding: 20px 0px;
+        width: 20rem;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .investment-img{
+        align-items: center;
+        /* width: 50%; */
+        /* margin:20px 0px; */
+    }
+    .investment-mode{
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        margin: 15px 0px;
+    }
+    .investment-text{
+        margin: 0px 10px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        line-height: 2;
+    }
+    .less-btn{
+         width: 10rem;
+        background-color: white;
+        border: 1px solid #7C20BE;
+        outline: #7C20BE;
+        margin-right: 40px;
+        /* position: relative;
+        left: 10px;  */
+        color: #7C20BE; 
+    }
+    .see-btn{
+        align-items: center;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+
+}
+@media screen and (min-width:480px) and (max-width:1024px)   {
+    .crypto-head{
+        margin: 50px;
+        text-align: center;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 33px;
+        color: #7C20BF;
+
+    }
+    .reasons{
+        /* margin: 10px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .payment{
+        /* border: 3px solid white; */
+        border-radius: 10px;
+        padding: 30px 0px;
+        width: 60rem;
+        height: 22rem;
+        margin-left: 20px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .payment-img{
+        align-items: center;
+        /* width: 50%; */
+        /* margin:20px 0px; */
+    }
+    .payment-mode{
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        margin: 12px 0px;
+
+    }
+    .payment-text{
+        margin: 0px 10px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        line-height: 1.6;
+    }
+    .financial{
+        margin-left: 20px;
+        border-radius: 10px;
+        padding: 20px 0px;
+        width: 64rem;
+        height: 22rem;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .financial-img{
+        align-items: center;
+        /* width: 50%; */
+        /* margin:20px 0px; */
+    }
+    .financial-mode{
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        margin: 15px 0px;
+    }
+    .financial-text{
+        margin: 0px 10px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .investment{
+        margin: 20px;
+        border-radius: 10px;
+        padding: 20px 0px;
+        width: 60rem;
+        height: 22rem;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .investment-img{
+        align-items: center;
+        /* width: 50%; */
+        /* margin:20px 0px; */
+    }
+    .investment-mode{
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        margin: 15px 0px;
+    }
+    .investment-text{
+        margin: 0px 10px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        line-height: 1.6;
+    }
+    .less-btn{
+        width: 10rem;
+       background-color: white;
+       border: 1px solid #7C20BE;
+       outline: #7C20BE;
+       margin-right: 40px;
+       /* position: relative;
+       left: 10px;  */
+       color: #7C20BE; 
+   }
+   .see-btn{
+       align-items: center;
+       text-align: center;
+       margin-left: 40px;
+   }
+
+}
+@media screen and  (min-width:1024px ) {
+    .crypto-head{
+        margin: 50px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 33px;
+        color: #7C20BF;
+
+    }
+    .reasons{
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .payment{
+        /* border: 3px solid white; */
+        border-radius: 10px;
+        padding: 20px 0px;
+        width: 40rem;
+        height: 21rem;
+        margin-left: 20px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .payment-img{
+        align-items: center;
+        /* width: 50%; */
+        /* margin:20px 0px; */
+    }
+    .payment-mode{
+        font-weight: bolder;
+        margin: 12px 0px;
+
+    }
+    .payment-text{
+        margin: 0px 10px;
+        text-align: center;
+        line-height: 2;
+    }
+    .financial{
+        margin-left: 20px;
+        border-radius: 10px;
+        padding: 20px 0px;
+        width: 40rem;
+        height: 21rem;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .financial-img{
+        align-items: center;
+        /* width: 50%; */
+        /* margin:20px 0px; */
+    }
+    .financial-mode{
+        font-weight: bolder;
+        margin: 15px 0px;
+    }
+    .financial-text{
+        margin: 0px 10px;
+        text-align: center;
+        line-height: 1.6;
+    }
+    .investment{
+        margin: 20px;
+        border-radius: 10px;
+        padding: 20px 0px;
+        width: 40rem;
+        height: 21rem;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .investment-img{
+        align-items: center;
+        /* width: 50%; */
+        /* margin:20px 0px; */
+    }
+    .investment-mode{
+        font-weight: bolder;
+        margin: 15px 0px;
+    }
+    .investment-text{
+        margin: 0px 10px;
+        text-align: center;
+        line-height: 1.6;
+    }
+    .less-btn{
+        width: 10rem;
+       background-color: white;
+       border: 1px solid #7C20BE;
+       outline: #7C20BE;
+       margin-right: 40px;
+       /* position: relative;
+       left: 10px;  */
+       color: #7C20BE; 
+   }
+   .see-btn{
+       align-items: center;
+       text-align: center;
+       margin-left: 40px;
+   }
+
+}

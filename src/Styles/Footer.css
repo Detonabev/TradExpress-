@@ -1,0 +1,229 @@
+@media screen and (max-width: 480px) {
+    .footer{
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(#7C1FBF, #470A73);
+
+    }
+    .footer-text{
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 19px;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+        border-bottom:1px solid gray;
+    }
+    .products{
+        margin-top: 20px;
+        margin-left: 30px;
+        /* border-bottom:1px solid gray; */
+    }
+    .products-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px;
+    }
+    .learn{
+        margin-left: 30px;
+    }
+    .learn-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px;
+
+    }
+    .contact{
+        margin-left: 30px;
+    }
+    .contact-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px
+    }
+    .icons{
+        display: flex;
+        gap: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .company{
+        margin-top:10px ;
+        margin-left:  30px;
+    }
+    .company-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px;
+    }
+    .legal{
+        margin: 0px 30px;
+    }
+    .legal-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px;
+
+    }
+}
+@media screen and (min-width:480px) and (max-width:1024px) {
+    .footer{
+        text-align: center;
+        margin-top: 5rem;
+        padding: 3rem 0rem;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-between;
+        background: linear-gradient(#7C1FBF, #470A73);
+
+    }
+    .footer-text{
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 19px;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+        border-bottom:1px solid gray;
+    }
+    .products{
+        margin-top: 20px;
+        margin-left: 40px;
+        /* border-bottom:1px solid gray; */
+    }
+    .products-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px;
+    }
+    .learn{
+        margin-top: 20px;
+    }
+    .learn-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px;
+
+    }
+    .contact{
+        margin-top: 20px;
+    }
+    .contact-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px
+    }
+    .icons{
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .company{
+        margin-top:20px ;
+    }
+    .company-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px;
+    }
+    .legal{
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+    .legal-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px;
+
+    }
+}
+@media screen and  (min-width:1024px ) {
+    .footer{
+        text-align: center;
+        margin-top: 5rem;
+        padding: 3rem 0rem;
+        display: flex;
+        flex-direction: row;
+        /* gap: 60px; */
+        justify-content: space-between;
+        background: linear-gradient(#7C1FBF, #470A73);
+
+    }
+    .footer-text{
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 19px;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+        border-bottom:1px solid gray;
+    }
+    .products{
+        margin-top: 20px;
+        margin-left: 40px;
+        /* border-bottom:1px solid gray; */
+    }
+    .products-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px;
+    }
+    .learn{
+        margin-top: 20px;
+    }
+    .learn-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px;
+
+    }
+    .contact{
+        margin-top: 20px;
+    }
+    .contact-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px
+    }
+    .icons{
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .company{
+        margin-top:20px ;
+    }
+    .company-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px;
+    }
+    .legal{
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+    .legal-a{
+        text-decoration: none;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 20px;
+
+    }
+}

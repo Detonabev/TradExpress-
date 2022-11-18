@@ -1,0 +1,233 @@
+.first-page{
+    background: linear-gradient(#7C1FBF, #470A73);
+    height: 100%;
+    position: relative;
+    overflow-y: hidden;
+}
+
+@media screen and (max-width: 480px) {
+    .text{
+        position: relative;
+        left: 10px;
+    }
+    .login-button{
+        border: 1px solid white;
+        color: white;
+        width: 15rem;
+        border-radius: 10px;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .get-started-button{
+        border: 1px solid white;
+        background-color: #FFFFFF;
+        color: #7C20BF;
+        width: 15rem;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .main-text{
+        margin: 20px 0px;
+        font-size: 35px;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+    }
+    .sub-text{
+        color: #FFFFFF;
+        line-height: 1.3;
+        font-weight: 100;
+        font-family: 'Roboto', sans-serif;
+    }
+    .start-button{
+        width: 15rem;
+        color: #7C20BF;
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 0px;
+        margin: 10px 0px;
+        position: relative;
+        left: 10px;
+    }
+    .app-store{
+        margin: 20px 0px;
+        display: flex;
+        gap: 5px;
+   }
+   .header-image img{
+    position: absolute;
+    top: 3rem;
+    left: 6rem;
+    width: 460px;
+    opacity: 0.32;
+    overflow-y: hidden;
+}
+   /* */
+   .coins{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 40px;
+    font-weight: bolder;
+    /* border-bottom: 1px solid gray; */
+    /* align-items: center; */
+    text-align: center;
+    
+   }
+}
+@media screen and (min-width:480px) and (max-width:1024px)  {
+    .text{
+        position: relative;
+        left: 10px;
+    }
+    .login-button{
+        border: 1px solid white;
+        color: white;
+        width: 15rem;
+        border-radius: 10px;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .get-started-button{
+        border: 1px solid white;
+        background-color: #FFFFFF;
+        color: #7C20BF;
+        width: 15rem;
+        padding: 10px 0px;
+        /* height: 4.3vh; */
+        border-radius: 10px;
+        text-align: center;
+        /* position: relative;
+        top: 10px;
+        bottom: 10px; */
+        /* left: 10px; */
+    }
+    .main-text{
+        margin: 20px 0px;
+        font-size: 45px;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+    }
+    .sub-text{
+        color: #FFFFFF;
+        line-height: 1.3;
+        font-weight: 100;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+    .start-button{
+        width: 15rem;
+        color: #7C20BF;
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 0px;
+        margin: 15px 0px;
+        position: relative;
+        left: 10px;
+    }
+    .app-store{
+        margin: 20px 10px;
+        display: flex;
+        gap: 5px;
+    }
+    .header-image img{
+        position: absolute;
+        top: 3rem;
+        left: 20rem;
+        width: 70%;
+        opacity: 0.32;
+        overflow-y: hidden;
+    }
+    .coins{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: bolder;
+        /* border-left: 1px solid gray; */
+        margin: 20px 60px;
+        text-align: center;
+        align-items: center;
+        /* border-right: 1px solid gray; */
+       }
+}
+/* and (max-width:1440px) */
+@media screen and  (min-width:1024px ) {
+    .text{
+        position: relative;
+        left: 10px;
+    }
+    .login-button{
+        border: 1px solid white;
+        color: white;
+        width: 15rem;
+        border-radius: 10px;
+        text-align: center;
+        margin: 10px 10px;
+    }
+    .get-started-button{
+        border: 1px solid white;
+        background-color: #FFFFFF;
+        color: #7C20BF;
+        width: 15rem;
+        padding: 10px 0px;
+        /* height: 4.3vh; */
+        border-radius: 10px;
+        text-align: center;
+        /* position: relative;
+        top: 10px;
+        bottom: 10px; */
+        /* left: 10px; */
+    }
+    .main-text{
+        margin: 20px 0px;
+        font-size: 50px;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+    }
+    .sub-text{
+        color: #FFFFFF;
+        line-height: 1.3;
+        font-weight: 100;
+        font-family: 'Roboto', sans-serif;
+        font-size: 23px;
+    }
+    .start-button{
+        width: 15rem;
+        color: #7C20BF;
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 0px;
+        margin: 15px 0px;
+        position: relative;
+        left: 10px;
+    }
+    .app-store{
+        margin: 20px 10px;
+        display: flex;
+        gap: 5px;
+    }
+    .header-image img{
+        position: absolute;
+        top: 3rem;
+        left: 26rem;
+        width: 62%;
+        opacity: 0.32;
+        overflow-y: hidden;
+    }
+    .coins{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: bolder;
+        /* border-left: 1px solid gray; */
+        margin: 20px 60px;
+        text-align: center;
+        align-items: center;
+        /* border-right: 1px solid gray; */
+       }
+}

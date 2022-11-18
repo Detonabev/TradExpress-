@@ -1,0 +1,269 @@
+@media screen and (max-width:480px) {
+    .steps {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 35px;
+       
+
+    }
+
+    .heading {
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 33px;
+        text-align: center;
+        margin-top: 40px;
+        color: #7C20BF;
+    }
+
+    .create {
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        /* margin-top: 40px; */
+        font-size: 25px;
+    }
+
+    .create-text {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        line-height: 2;
+    }
+
+    .account-img {
+        width: 40%;
+        position: relative;
+        left: 160px;
+    }
+
+    .deposit {
+        font-weight: 700;
+        /* margin-top: 40px; */
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+
+    .deposit-text {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        line-height: 2;
+    }
+    .deposit-img{
+        width: 60%;
+        position: relative;
+        margin-bottom: 20px;
+        left: 70px;
+    }
+    .buysell{
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        /* margin-top: 40px; */
+        font-size: 23px;
+    }
+    .buysell-text{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif; 
+        line-height: 2;
+    }
+    .buysell-img{
+        width: 40%;
+        position: relative;
+        left: 160px;
+    }
+}
+@media screen and (min-width:480px) and (max-width:1024px)  {
+    .steps {
+        display: flex;
+        flex-direction: column;
+    }
+    .heading {
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+        color: #7C20BF;
+    }
+    .free-account{
+        margin: 40px 0px;
+    }
+    .account{
+        margin-left: 40px;
+    }
+    .create {
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        /* margin-top: 40px; */
+        font-size: 25px;
+    }
+
+    .create-text {
+        text-align: left;
+        position: relative;
+        left: 60px;
+        bottom: 20px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        line-height: 2;
+    }
+    .account-img {
+        width: 30%;
+        position: relative; 
+        left: 65vw;
+        bottom: 5vw; 
+    }
+    .com-deposit{
+        margin-right: 50px;
+    }
+     .deposit {
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        left: 28vw;
+        /* margin-top: 40px; */
+        font-size: 25px;
+    }
+     .deposit-text {
+        text-align: right;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        line-height: 2;
+    }
+    .deposit-img{
+        width: 45%;
+        position: relative;
+        margin-bottom: 20px;
+        /* left: 5vw; */
+        bottom: 5vw;
+    }
+    .com-buysell{
+        margin-left: 40px;
+    }
+    .buysell{
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        /* margin-top: 40px; */
+        font-size: 25px;
+    }
+    .buysell-text{
+        text-align: left;
+        position: relative;
+        left: 60px;
+        bottom: 20px;
+        font-size: 15px;
+        font-weight: 400; 
+        font-family: 'Roboto', sans-serif;
+        line-height: 2;
+    }
+    .buysell-img{
+        width: 30%;
+        position: relative; 
+        left: 60vw;
+        bottom: 6vw; 
+    }
+
+}
+@media screen and  (min-width:1024px ) {
+    .steps {
+        display: flex;
+        flex-direction: column;
+    }
+    .heading {
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+        color: #7C20BF;
+    }
+    .free-account{
+        margin: 40px 0px;
+    }
+    .account{
+        margin-left: 40px;
+    }
+    .create {
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        /* margin-top: 40px; */
+        font-size: 25px;
+    }
+
+    .create-text {
+        text-align: left;
+        position: relative;
+        left: 60px;
+        bottom: 20px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        line-height: 2;
+    }
+
+    .account-img {
+        width: 30%;
+        position: relative; 
+        left: 65vw;
+        bottom: 10vw; 
+    }
+    .com-deposit{
+        margin-right: 50px;
+    }
+     .deposit {
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        left: 55vw;
+        /* margin-top: 40px; */
+        font-size: 25px;
+    }
+     .deposit-text {
+        text-align: right;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        line-height: 2;
+    }
+    .deposit-img{
+        width: 45%;
+        position: relative;
+        margin-bottom: 20px;
+        /* left: 5vw; */
+        bottom: 20vw;
+    }
+    .com-buysell{
+        margin-left: 40px;
+    }
+    .buysell{
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        /* margin-top: 40px; */
+        font-size: 25px;
+    }
+    .buysell-text{
+        text-align: left;
+        position: relative;
+        left: 60px;
+        bottom: 20px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif; 
+        line-height: 2;
+    }
+    .buysell-img{
+        width: 30%;
+        position: relative; 
+        left: 60vw;
+        bottom: 12vw; 
+    }
+
+
+}
